@@ -1,1 +1,1 @@
-web: gunicorn jv-codestar.wsgi:application
+web: gunicorn jv-codestar.wsgi
