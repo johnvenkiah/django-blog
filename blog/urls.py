@@ -7,4 +7,5 @@ urlpatterns = [
     # '<slug:slug>/' below = django slug path converter and slug in PostDetail
     # get method
     path('<slug:slug>/', views.PostDetail.as_view(), name='post_detail'),
+    path('like/<slug:slug>/', views.PostLike.as_view(), name='post_like'),
 ]
